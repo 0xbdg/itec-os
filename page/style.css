@@ -1,93 +1,66 @@
-*{
-	box-sizing: border-box;
-	scroll-behavior: smooth;
-}
-
-body{
-	margin: 0;
-	padding: 0;
-	font-family: system-ui;
-    background-color: rgb(14, 34, 61);
-}
-
-#navigasi{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(18, 60, 139);
-    position: sticky;
-    flex-direction: row;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    width:100%;
 }
-
-#navigasi ul{
-    margin:0;
-    padding:0;
-    list-style-type: none;
-    overflow: hidden;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
-
-#navigasi li{
-    float:left;
-    margin: 9px;
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #12366d;
+    padding: 10px 20px;
 }
-
-#navigasi li a{
-    display:block;
-    padding: 8px;
-    font-size: 20px;
+.navbar-logo {
+    width: 100px;
+    height: auto;
+}
+.navbar-menu {
+    display: flex;
+    list-style: none;
+}
+.navbar-menu li {
+    margin-left: 20px;
+}
+.navbar-menu a {
+    display: block;
     color: white;
     text-decoration: none;
+}
+.navbar-menu a:hover {
+    text-decoration: underline;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+}
+.hero-left {
+    max-width: 500px;
+}
+.hero-title {
+    font-size: 48px;
     font-weight: bold;
+    color: #333333;
 }
-#navigasi li a:hover{
-    text-decoration: underline;
+.hero-subtitle {
+    font-size: 24px;
+    color: #666666;
+    margin-top: 10px;
 }
-
-#utama p{
-    font-weight: 555;
-    tab-size: 4;
-    max-width: 68in;
-}
-
-#utama .deskripsi{
-    margin: 4px 2px;
-    background-color: rgb(16, 46, 85) ;
-    color:white;
-    padding: 4px;
-    margin: 0;
-}
-
-#utama .opsi .tombol-donglod{
-    background-color: rgb(11, 108, 173);
+.hero-button {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #0099ff;
+    color: white;
     text-decoration: none;
-    color:white;
-    font-weight: 555;
-    padding :12px 20px;
-    border-radius: .25em;
-    margin: 4px 2px;
+    margin-top: 20px;
 }
-
-#utama .opsi .tombol-donglod:hover{
-    background-color: rgb(10, 64, 100);
-    text-decoration: underline;
-}
-
-#utama .opsi .tombol-ngemis{
-    background-color: rgb(136, 204, 9);
-    text-decoration: none;
-    color:white;
-    font-weight: 555;
-    padding :12px 20px;
-    border-radius: .25em;
-    margin: 4px 2px;
-}
-
-#utama .opsi .tombol-ngemis:hover{
-    background-color: rgb(81, 116, 17);
-    text-decoration: underline;
-}
-
-#fitur {
-    
+.hero-right {
+    width: 500px;
+    height: auto;
 }
