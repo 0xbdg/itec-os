@@ -1,4 +1,4 @@
 # ITEC-OS-WebPage
 
 
-Hanya sekedar tampilan saja :)
+Hanya sekedar tampilan website saja :)
